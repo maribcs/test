@@ -1,0 +1,7 @@
+
+<input  class="input_nextoCandado input-login" type="text" maxlength="8" placeholder="Clave" ng-model="input" />
+
+<div class="keyboard keyboard-alphanumeric  candado_clabe">
+	<div ng-repeat="key in keys" class="key" ng-bind="key" ng-click="keyPress(key)"></div>	
+	<div class="key key-extra" ng-click="clear()">BORRAR</div>
+</div>
